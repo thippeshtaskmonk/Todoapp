@@ -21,8 +21,9 @@ export default class TodoTask extends React.Component {
         });
       }
 
-      handleDelete = ()=>{
+      handleDelete = ()=>{ 
         {this.state.items.splice()}
+        
       }
     render() {
         return (
